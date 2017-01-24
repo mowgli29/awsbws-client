@@ -1,0 +1,5 @@
+#!/bin/bash
+apt update -y
+apt upgrade -y
+apt install iperf3 -y
+/sbin/shutdown 55 min
